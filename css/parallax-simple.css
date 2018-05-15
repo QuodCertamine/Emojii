@@ -13,7 +13,7 @@
 }
 .container section {
   width: 100%;
-  height: 70vh;
+  height: 100%;
   flex: 1;
   display: flex;
   text-align: center;
@@ -26,16 +26,16 @@ section.mission{
     height: 35vh;
 }
 section.why-emojii{
-    height: 55vh;
+    height: 100%;
 }
 .container section:nth-child(1) .image {
-    background-color: #EBE7E0;
+    background-color: #FFFF
 }
 .container section:nth-child(2) .image {
-  background-image: url(https://images.unsplash.com/photo-1462819067004-905a72ea3996?iq=100&fm=jpg&w=1000);
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/14/03/07/asia-1822460_960_720.jpg);
 }
 .container section:nth-child(3) .image {
-  background-image: url(https://images.unsplash.com/photo-1461770354136-8f58567b617a?iq=100&fm=jpg&w=1000);
+  background-image: url(https://images.pexels.com/photos/886464/pexels-photo-886464.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 }
 .container section:nth-child(4) .image {
   background-image: url(https://images.unsplash.com/photo-1461080639469-66d73688fb21?iq=100&fm=jpg&w=1000);
@@ -53,7 +53,16 @@ section.why-emojii{
   height: 100%;
   position: absolute;
   z-index: 500;
-  opacity: 0.4;
+  opacity: 0.6;
+}
+.container-body{
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+}
+#about-image{
+    opacity: 0.7;
 }
 .container section .stuff {
   display: flex;
@@ -74,11 +83,7 @@ section.why-emojii{
 }
 .container section .stuff:before, .container section .stuff:after {
   width: 100%;
-  height: 1px;
-  display: block;
-  background-color: #fff;
-  content: "";
-  margin: 30px 0;
+
 }
 
 .at-twitter {

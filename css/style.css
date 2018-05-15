@@ -4049,7 +4049,7 @@ p > video {
 	position: relative;
 	border-bottom-color: solid;
 	height: 104px;
-	background-color: #F4F0E6;
+	background-color: #e7ebed;
 }
 .animated1{
 -webkit-animation-fill-mode:both;
@@ -4213,6 +4213,7 @@ h2.about-text {
     line-height: 33px;
 	color: #fff;
 	text-align: center;
+	padding-bottom: 20px;
 	padding-top: 20px;
 	/* padding-bottom: 60px; */
 	font-weight: 100;
