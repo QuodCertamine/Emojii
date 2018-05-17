@@ -5,13 +5,13 @@ $(function() {
         items: 3,
         items: {
             width: $('#wrapper').width() * 0.15,
-            height: 500,
+            height: 800,
             visible: 1,
             minimum: 1
         },
         scroll: {
             items: 1,
-            timeoutDuration : 5000,
+            timeoutDuration : 5500,
             onBefore: function(data) {
 
                 //	find current and next slide

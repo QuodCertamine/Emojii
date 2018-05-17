@@ -1,9 +1,9 @@
-html, #c-carousel {
+html {
     height: 100%;
     padding: 0;
     margin: 0;
 }
-#c-carousel {
+/* #c-carousel {
     background: #f9f9f3;
 }
 #c-carousel * {
@@ -11,18 +11,18 @@ html, #c-carousel {
     font-size: 14px;
     color: #222;
     line-height: 20px;
-}
+} */
 
 #wrapper {
     height: 100%;
     width: 100%;
-    min-height: 650px;
+    min-height: 850px;
     min-width: 100%;
     padding-top: 1px;
 }
 #slider {
     margin: 0 0 0 0;
-    height: 600px;
+    height: 800px;
     overflow: hidden;
     background: url(img/ajax-loader.gif) center center no-repeat;
 }
@@ -30,7 +30,7 @@ html, #c-carousel {
 #slider .slide {
     position: relative;
     display: none;
-    height: 600px;
+    height: 800px;
     float: left;
     background-position: center right;
     cursor: pointer;
@@ -50,13 +50,84 @@ html, #c-carousel {
     left: 140px;
     bottom: 185px;
     display: inline-block;
-    width: 435px;
+    width: 535px;
     background-color: #fff;
-    background-color: rgba(235, 231, 224, 0.9);	
+    background-color: rgba(62, 62, 63, 0.9);	
     padding: 20px;
     font-size: 14px;
-    color: #44749D;
-    border: 1px solid #fff;
+    color: #fff;
+    border: 3px solid #d62c32;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+#slider .slide-block h4 {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    line-height: 1;
+}
+#slider .slide-block p {
+    margin: 0;
+}html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* #c-carousel {
+    background: #f9f9f3;
+}
+#c-carousel * {
+    font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+    font-size: 14px;
+    color: #222;
+    line-height: 20px;
+} */
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    min-height: 850px;
+    min-width: 100%;
+    padding-top: 1px;
+}
+#slider {
+    margin: 0 0 0 0;
+    height: 800px;
+    overflow: hidden;
+    background: url(img/ajax-loader.gif) center center no-repeat;
+}
+
+#slider .slide {
+    position: relative;
+    display: none;
+    height: 800px;
+    float: left;
+    background-position: center right;
+    cursor: pointer;
+    border-left: 1px solid #fff;
+}
+
+#slider .slide:first-child {
+    border: none;
+}
+
+#slider .slide.active {
+    cursor: default;
+}
+
+#slider .slide-block {
+    position: absolute;
+    left: 140px;
+    bottom: 185px;
+    display: inline-block;
+    width: 535px;
+    background-color: #fff;
+    background-color: rgba(62, 62, 63, 0.9);	
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+    border: 3px solid #d62c32;
     overflow: hidden;
     border-radius: 4px;
 }
@@ -74,23 +145,88 @@ html, #c-carousel {
     margin: 0;
 }
 .carousel-text2{
-    font-size: 36px;
+    font-size: 20px;
     color: white;
     max-width: 70%;
     text-align: center;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
-.carousel-header2{
-    margin-top: 10%
-}
+.carousel-text1{
+    font-size: 20px;
+    color: white;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+
+} 
+
 .footer-1{
-    color: black
+    color: black;
+    display: inline;
+    margin: 0 auto 0 0;
+    font-size: 1rem;
 }
 .footer-2{
-    color: black
+    color: black;
+    display: inline-block;
+    margin: auto;
+    font-size: 1rem;
 }
 .footer-3{
-    color: black
+    color: black;
+    display: inline;
+    margin: 0 auto 0 auto;
+    font-size: 1rem;
+}
+.nav-item-footer{
+	display: inline;
+	margin: 0 auto auto auto;
+}
+.caroufredsel_wrapper{
+    margin: 0;
+}
+.carousel-text2{
+    font-size: 20px;
+    color: white;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.carousel-text1{
+    font-size: 20px;
+    color: white;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+
+} 
+
+.footer-1{
+    color: black;
+    display: inline;
+    margin: 0 auto 0 0;
+    font-size: 1rem;
+}
+.footer-2{
+    color: black;
+    display: inline-block;
+    margin: auto;
+    font-size: 1rem;
+}
+.footer-3{
+    color: black;
+    display: inline;
+    margin: 0 auto 0 auto;
+    font-size: 1rem;
+}
+.nav-item-footer{
+	display: inline;
+	background-color: #e7ebed;
+	color: black;
+	margin: auto;
+	font-size: 17px;
+	text-decoration: none;
+	padding-bottom: 0;
+	box-shadow: inset 0 0px 0 white, inset 0 -2px 0 #ee6468;
+	font-family: 'Roboto', sans-serif;
 }

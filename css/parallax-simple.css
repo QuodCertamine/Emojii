@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 
-.container {
+.container-parallax {
   display: flex;
   align-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   position: relative;
   width: 100%;
 }
-.container section {
+.container-parallax section {
   width: 100%;
   height: 100%;
   flex: 1;
@@ -23,48 +23,51 @@
 }
 
 section.mission{
-    height: 35vh;
+    height: 40vh;
 }
 section.why-emojii{
-    height: 100%;
+    height: 55vh;
 }
-.container section:nth-child(1) .image {
+.container-parallax section:nth-child(1) .image {
     background-color: #FFFF
 }
-.container section:nth-child(2) .image {
+.container-parallax section:nth-child(2) .image {
   background-image: url(https://cdn.pixabay.com/photo/2016/11/14/03/07/asia-1822460_960_720.jpg);
 }
-.container section:nth-child(3) .image {
+.container-parallax section:nth-child(3) .image {
   background-image: url(https://images.pexels.com/photos/886464/pexels-photo-886464.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 }
-.container section:nth-child(4) .image {
+.container-parallax section:nth-child(4) .image {
   background-image: url(https://images.unsplash.com/photo-1461080639469-66d73688fb21?iq=100&fm=jpg&w=1000);
 }
-.container section:nth-child(5) .image {
+.container-parallax section:nth-child(5) .image {
   background-image: url(https://images.unsplash.com/photo-1460804198264-011ca89eaa43?iq=100&fm=jpg&w=1000);
 }
-.container section:nth-child(6) .image {
+.container-parallax section:nth-child(6) .image {
   background-image: url(https://images.unsplash.com/photo-1463123081488-789f998ac9c4?iq=100&fm=jpg&w=1000);
 }
-.container section .image {
+.whyemojii .image {
+    background-image: url(https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&h=1250&w=1660);
+  }
+.container-parallax section .image {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 500;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 .container-body{
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 27px;
     color: white;
     font-weight: 200;
 }
 #about-image{
     opacity: 0.7;
 }
-.container section .stuff {
+.container-parallax section .stuff {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -78,10 +81,10 @@ section.why-emojii{
   font-size: 26px;
   position: relative;
 }
-.container section .stuff h2 {
+.container-parallax section .stuff h2 {
   margin: 0px;
 }
-.container section .stuff:before, .container section .stuff:after {
+.container-parallax section .stuff:before, .container-parallax section .stuff:after {
   width: 100%;
 
 }
@@ -113,4 +116,9 @@ h2.container-header{
     font-size: 52px;
     line-height: 52px;
     font-weight: 600;
+}
+.why-emojii-text{
+    color:white;
+    margin-top: 40px;
+    font-size: 28px;
 }
