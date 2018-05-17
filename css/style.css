@@ -4049,6 +4049,7 @@ p > video {
 	margin-top: 13%;
     position: absolute;
     margin-left: 42%;
+  
 }
 .featured-text2{
 	margin-top: 13%;
@@ -4271,8 +4272,8 @@ animation-duration:11s;
 /*ABOUT*/
 .about{
 	border-top: 7px solid;
-	border-color: #d62c32;
-	background-color: #7f7f7f;
+	border-color: #2081af;
+	background-color: #f6971e;
 }
 .about-inner{
 	margin: 0 auto;
@@ -4311,7 +4312,7 @@ h2.about-text {
 	height: 810px;
 	background-color: #EBE7E0;
 	border-top: 8px solid;
-	border-color: #d62c32;
+	border-color: #f6971e;
 }
 .services-mobile{
 	background-color: #F4F0E6;
@@ -4393,7 +4394,7 @@ h2.about-text {
 
 /*CONTACT*/
 .contact{
-    background-color: #7f7f7f;
+    background-color: #2081af;
     height: 100%;
     border-top: 7px solid;
     color: white;
