@@ -49,6 +49,9 @@ section.why-emojii{
 .whyemojii .image {
     background-image: url(https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&h=1250&w=1660);
   }
+  .whyemojii-mobile .image {
+    background-image: url(https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&h=1250&w=1660);
+  }
 .container-parallax section .image {
   background-attachment: fixed;
   background-size: cover;
@@ -122,4 +125,23 @@ h2.container-header{
     color:white;
     margin-top: 40px;
     font-size: 28px;
+}
+@media(max-width:820px){
+  h2.container-header {
+    font-size: 21px;
+    line-height: 20px;
+  }
+  .container-body {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .whyemojii{
+    display: none;
+  }
+  #why-explained{
+    display: none;
+  }
+  section.why-emojii{
+    height: 33vh;
+  }
 }

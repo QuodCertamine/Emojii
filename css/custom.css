@@ -301,3 +301,20 @@ html {
     height: 223px;
     width: 390px;
 }
+@media(max-width:820px){
+    .nav-item-footer {
+        font-size: 10px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .footer-1{
+        font-size: 0.65rem;
+    }
+    .footer-2{
+        font-size: 0.65rem;
+    }
+    .footer-3{
+        font-size: 0.65rem;
+    }
+}
