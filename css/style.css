@@ -4255,7 +4255,7 @@ h2.about-text {
 	border-color: #f6971e;
 }
 .services-mobile{
-	background-color: #F4F0E6;
+	background-color: #f6971e;
 	border-top: 8px solid;
 	border-color: #BDB8AD;
 	display: none;
@@ -4752,6 +4752,9 @@ video {
 	h2.about-text {
 		font-size: 16px;
 		line-height: 18px;
+	}
+	.contact-form p{
+		font-size: 16px;
 	}
 }
 }

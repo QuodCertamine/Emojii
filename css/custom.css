@@ -317,4 +317,37 @@ html {
     .footer-3{
         font-size: 0.65rem;
     }
+    .why-explained-text-1 {
+        font-size: .95rem;
+    }
+    .why-explained-text-2 {
+        font-size: .95rem;
+    }
+    .why-explained-text-3 {
+        font-size: .95rem;
+    }
+    .why-explained-imgs {
+        height: 220px;
+        width: 355px;
+    }
+    .why-explained-subcontainer-1 {
+        height: 376px;
+        width: 355px;
+    }
+    .why-explained-subcontainer-2 {
+        height: 376px;
+        width: 355px;
+    }
+    .why-explained-subcontainer-3 {
+        height: 376px;
+        width: 355px;
+        margin-bottom: 6px;
+    }
+    .services-header-mobile{
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-size: 28px;
+    }
 }
